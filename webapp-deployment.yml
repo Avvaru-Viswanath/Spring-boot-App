@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask-web-app
-          image: vamsi12358/flaskapplication:latest
+          image: avvaru-viswanath/flaskapplication:latest
           ports:
             - containerPort: 5000
           imagePullPolicy: Always
